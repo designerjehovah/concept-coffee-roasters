@@ -2,6 +2,7 @@ import React, { useContext } from 'react';
 import PreferenceContext from '../../../context/preferences/preferenceContext';
 import HeadingThree from '../../../reusables/components/Headings/HeadingThree';
 import Paragraph from '../../../reusables/components/Paragraphs/Paragraph';
+import PropTypes from 'prop-types';
 
 const Preference = ({ reference, title, items, tilted, collapsed, enabled }) => {
   const context = useContext(PreferenceContext);
@@ -106,6 +107,15 @@ const Preference = ({ reference, title, items, tilted, collapsed, enabled }) => 
       </div>
     </article>
   );
+};
+
+Preference.propTypes = {
+  reference: PropTypes.string.isRequired,
+  title: PropTypes.string.isRequired,
+  items: PropTypes.array.isRequired,
+  tilted: PropTypes.bool.isRequired,
+  collapsed: PropTypes.bool.isRequired,
+  enabled: PropTypes.bool.isRequired,
 };
 
 export default Preference;

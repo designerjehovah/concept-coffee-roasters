@@ -2,6 +2,7 @@ import React, { useContext } from 'react';
 import { Link } from 'react-router-dom';
 import Button from './Button';
 import PreferenceContext from '../../../context/preferences/preferenceContext';
+import PropTypes from 'prop-types';
 
 const TriggerModal = ({ children }) => {
   const context = useContext(PreferenceContext);
@@ -25,6 +26,10 @@ const TriggerModal = ({ children }) => {
       <Button action={children} />
     </Link>
   );
+};
+
+TriggerModal.propTypes = {
+  children: PropTypes.string.isRequired,
 };
 
 export default TriggerModal;

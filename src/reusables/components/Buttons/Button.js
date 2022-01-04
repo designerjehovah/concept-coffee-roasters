@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 const Button = ({ action }) => {
   return (
@@ -8,6 +9,10 @@ const Button = ({ action }) => {
       {action}
     </button>
   );
+};
+
+Button.propTypes = {
+  action: PropTypes.string.isRequired,
 };
 
 export default Button;
