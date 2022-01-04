@@ -22,7 +22,7 @@ const Navigation = () => {
             ))}
           </ul>
         </div>
-        <div className="flex justify-center gap-4">
+        <div className="flex justify-center items-center gap-4">
           {socials.map((social) => (
             <social.page key={socials.indexOf(social)} />
           ))}
