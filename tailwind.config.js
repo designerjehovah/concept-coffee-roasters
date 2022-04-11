@@ -54,6 +54,7 @@ module.exports = {
         94: '22rem',
         120: '120%',
         '9/10': '90%',
+        desktop: '1280px',
       },
       maxHeight: {
         100: '40rem',

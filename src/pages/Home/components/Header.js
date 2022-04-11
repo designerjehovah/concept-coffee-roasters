@@ -23,7 +23,7 @@ const Header = () => {
       />
 
       <div
-        className="p-4 lg:px-20 absolute inset-0 flex flex-col justify-center items-center gap-9 text-center
+        className="p-4 lg:px-12 absolute inset-0 flex flex-col justify-center items-center gap-9 text-center
        md:w-3/4 lg:w-5/12 md:items-start md:text-left md:p-12">
         <HeadingOne>Great coffee made simple</HeadingOne>
         <Paragraph>
