@@ -40,9 +40,9 @@ const Navigation = () => {
       <nav
         onClick={selectMenu}
         className="relative w-full flex justify-between items-center">
-        <Fragment>
-          <img src={Logo} alt="logo" className="w-1/2 md:w-1/3 lg:w-2/12" />
-        </Fragment>
+        <Link to="/" className="w-1/2 md:w-1/3 mdx:w-2/12">
+          <img src={Logo} alt="logo" />
+        </Link>
 
         <Fragment>
           <img ref={burgerIcon} src={burger} alt="burger" className="md:hidden" />
