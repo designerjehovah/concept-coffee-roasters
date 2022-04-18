@@ -18,7 +18,7 @@ const Modal = () => {
           <div
             className="absolute inset-0 p-10 w-screen h-1/2 z-20 opacity-50 "
             style={{ backgroundColor: '#000' }}></div>
-          <div className="absolute md:fixed w-full md:w-3/4 lg:w-2/5 md:mx-auto md:top-44 z-40 inset-0 px-6 py-6">
+          <div className="absolute md:fixed w-full md:w-3/4 mdx:w-2/5 md:mx-auto md:top-44 z-40 inset-0 px-6 py-6">
             <div className="bg-gray-dark px-5 py-7 md:p-14 text-center md:text-left md:rounded-tl-lg md:rounded-tr-lg">
               <HeadingTwo>
                 <span className="md:text-4xl" style={{ color: '#fff' }}>

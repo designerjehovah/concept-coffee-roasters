@@ -13,17 +13,17 @@ const Header = memo(() => {
       <img
         src={HeroTablet}
         alt="blackCup-tablet"
-        className="rounded-md hidden md:block lg:hidden"
+        className="rounded-md hidden md:block mdx:hidden"
       />
       <img
         src={HeroDesktop}
         alt="blackCup-desktop"
-        className="rounded-md hidden lg:block"
+        className="rounded-md hidden mdx:block"
       />
 
       <div
-        className="p-4 lg:px-12 absolute inset-0 flex flex-col justify-center items-center gap-9 text-center
-       md:w-3/4 lg:w-5/12 md:items-start md:text-left md:p-12">
+        className="p-4 mdx:px-12 absolute inset-0 flex flex-col justify-center items-center gap-9 text-center
+       md:w-3/4 mdx:w-5/12 md:items-start md:text-left md:p-12">
         <HeadingOne>Create a plan</HeadingOne>
         <Paragraph>
           <span className="text-gray-light">

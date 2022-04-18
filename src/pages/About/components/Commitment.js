@@ -7,7 +7,7 @@ import Paragraph from '../../../reusables/components/Paragraphs/Paragraph';
 
 const Commitment = () => {
   return (
-    <section className="lg:w-9/10 lg:mx-auto mt-32 flex flex-col md:flex-row justify-center items-center gap-16 lg:gap-28">
+    <section className="mdx:w-9/10 lg:mx-auto mt-32 flex flex-col md:flex-row justify-center items-center gap-16 lg:gap-28">
       <img
         src={BartenderMobile}
         alt="bartender-serving-coffee-mobile"
@@ -16,12 +16,12 @@ const Commitment = () => {
       <img
         src={BartenderTablet}
         alt="bartender-serving-coffee-mobile"
-        className="hidden md:block md:rounded-md lg:hidden"
+        className="hidden md:block md:rounded-md mdx:hidden"
       />
       <img
         src={BartenderDesktop}
         alt="bartender-serving-coffee-desktop"
-        className="hidden lg:block md:rounded-md"
+        className="hidden mdx:block md:rounded-md"
       />
 
       <div className="w-full flex flex-col items-center gap-8 text-center md:text-left">

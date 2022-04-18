@@ -10,7 +10,7 @@ import Modal from './pages/Subscribe/components/Modal';
 function App() {
   return (
     <Router>
-      <div className="App relative lg:w-desktop lg:mx-auto p-6 md:p-10 lg:px-20 lg:py-11">
+      <div className="App relative mdx:w-desktop mdx:mx-auto p-6 md:p-10 mdx:px-20 mdx:py-11">
         <Menu />
         <Routes>
           <Route path="/" element={<Home />} />

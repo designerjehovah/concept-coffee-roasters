@@ -19,7 +19,7 @@ const Guidelines = () => {
 
   return (
     <section
-      className={`lg:w-full lg:mx-auto ${
+      className={`mdx:w-full mdx:mx-auto ${
         pathname !== '/' ? darkenBg() : 'mt-16'
       } text-center md:text-left`}>
       <div className="flex flex-col justify-center place-items-center gap-16 md:items-start md:gap-14">
@@ -32,13 +32,13 @@ const Guidelines = () => {
         <LineAndRing />
 
         <div
-          className={`lg: w-5/6 flex flex-col md:flex-row justify-center items-center gap-12 ${
-            pathname === '/subscribe' ? 'md:gap-2 lg:gap-28' : 'md:gap-6 lg:gap-36'
+          className={`mdx: w-5/6 flex flex-col md:flex-row justify-center items-center gap-12 ${
+            pathname === '/subscribe' ? 'md:gap-2 mdx:gap-28' : 'md:gap-6 mdx:gap-36'
           }`}>
           {guidelines.map((guideline, index) => (
             <div
               key={index}
-              className="flex flex-col justify-center lg:justify-start place-items-center lg:place-items-start gap-8">
+              className="flex flex-col justify-center lg:justify-start place-items-center mdx:place-items-start gap-8">
               <div className="font-display font-black text-5xl leading-16 text-orange-pale md:w-full">
                 0{parseInt(index + 1)}
               </div>
@@ -46,7 +46,7 @@ const Guidelines = () => {
                 <span
                   className={`${
                     pathname === '/' ? 'text-gray-dark' : 'text-gray-light'
-                  } lg:text-3xl lg:w-60`}>
+                  } mdx:text-3xl mdx:w-60`}>
                   {guideline.title}
                 </span>
               </HeadingTwo>

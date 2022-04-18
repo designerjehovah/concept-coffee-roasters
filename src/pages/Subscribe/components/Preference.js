@@ -89,7 +89,7 @@ const Preference = ({ reference, title, items, tilted, collapsed, enabled }) => 
           <div
             key={index}
             className="p-6 lg:px-7 lg:pt-8 bg-gray-smooth flex flex-col 
-            items-start gap-4 rounded-lg h-60 hover:text-orange-pale"
+            items-start gap-4 rounded-lg h-[fit-content] hover:text-orange-pale"
             onClick={(e) => {
               const elem = e.currentTarget;
               const parent = e.currentTarget.parentElement.childNodes;
